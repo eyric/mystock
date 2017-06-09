@@ -1,0 +1,1 @@
+a:3:{s:4:"time";i:1493873156;s:3:"ttl";i:3600000;s:4:"data";a:2:{i:0;a:7:{s:2:"id";s:1:"2";s:4:"name";s:6:"盘盈";s:5:"inout";s:1:"1";s:6:"status";s:1:"1";s:4:"type";s:2:"in";s:7:"default";s:1:"0";s:6:"number";s:6:"150701";}i:1;a:7:{s:2:"id";s:1:"1";s:4:"name";s:12:"其他入库";s:5:"inout";s:1:"1";s:6:"status";s:1:"1";s:4:"type";s:2:"in";s:7:"default";s:1:"1";s:6:"number";s:6:"150706";}}}

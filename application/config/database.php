@@ -1,0 +1,45 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+
+define('LOG','ci_log');  
+define('ROLE','ci_role');             
+define('MENU','ci_menu');   
+define('CONTACT','ci_contact');  
+define('GOODS','ci_goods'); 
+define('GOODS_IMG','ci_goods_img');  
+define('STAFF','ci_staff'); 
+define('ASSISTINGPROP','ci_assistingprop');
+define('RECEIPT_INFO','ci_receipt_info');
+define('PAYMENT_INFO','ci_payment_info');
+define('ACCOUNT','ci_account');
+define('STORAGE','ci_storage');     
+define('ADMIN','ci_admin'); 
+define('SETTLEMENT','ci_settlement'); 
+define('CATEGORY','ci_category'); 
+define('UNIT','ci_unit');   
+define('UNITTYPE','ci_unittype');  
+define('ADDRESS','ci_address');
+define('ASSISTSKU','ci_assistsku');
+define('INVOICE','ci_invoice');    
+define('INVOICE_INFO','ci_invoice_info'); 
+define('INVOICE_TYPE','ci_invoice_type'); 
+define('ACCOUNT_INFO','ci_account_info'); 
+define('OPTIONS','ci_options');
+$active_group = 'default';
+$active_record = TRUE;
+$db['default']['hostname'] = '127.0.0.1';
+$db['default']['username'] = 'root';
+$db['default']['password'] = '';
+$db['default']['database'] = 'erpv2';
+$db['default']['dbdriver'] = 'mysql';
+$db['default']['dbprefix'] = '';
+$db['default']['pconnect'] = TRUE;
+$db['default']['db_debug'] = FALSE;
+$db['default']['cache_on'] = FALSE;
+$db['default']['cachedir'] = '';
+$db['default']['char_set'] = 'utf8';
+$db['default']['dbcollat'] = 'utf8_unicode_ci';
+$db['default']['swap_pre'] = '';
+$db['default']['autoinit'] = TRUE;
+$db['default']['stricton'] = FALSE;
+/* End of file database.php */
+/* Location: ./application/config/database.php */
